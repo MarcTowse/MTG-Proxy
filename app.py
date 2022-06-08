@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 FLUTTER_WEB_APP = 'templates'
 
-@app.route('/web/')
+@app.route('/')
 def render_page_web():
     return render_template('index.html')
 
